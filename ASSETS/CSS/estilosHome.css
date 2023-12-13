@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #FBF3F2;
+}
+.conten{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 80%;
+    height: 20vh;
+    padding: 5px;
+}
+.logo img{
+    object-fit: fill;
+}
+.login{
+    background-color: #1C768F;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Itim', cursive;
+    font-size: 25px;
+    background-color: #FA991C;
+    height: 8vh;
+    border-radius: 10px;
+}
